@@ -15,9 +15,3 @@
 4. В `src/index.tsx` выключать StrictMode, убирать вызов useMockAdapter
 
 Что не запрещено - то разрешено
-
-## Дизайн:
-
-### Figma [Comments.fig](Comments.fig)
-
-![preview.png](preview.png)
