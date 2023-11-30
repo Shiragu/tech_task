@@ -23,7 +23,9 @@
       "@core/lib/*": ["lib/*"],
       "@core/api/*": ["api/*"],
       "@core/types/*": ["types/*"],
-      "@core/data/*": ["data/*"]
+      "@core/data/*": ["data/*"],
+      "@core/hooks/*": ["hooks/*"],
+      "@core/store/*": ["store/*"]
     }
   }
 }

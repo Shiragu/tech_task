@@ -1,10 +1,10 @@
 import { IBuildEnv } from "@core/types/build.types";
-import { ModuleOptions } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import { ModuleOptions } from "webpack";
 
 export function getLoaders({ mode }: IBuildEnv): ModuleOptions["rules"] {
   const isDev = mode === "development";
-  console.log(isDev, mode);
+
   const imageLoader = {
     test: /\.(png|svg|jpg|jpeg|gif)$/i,
     type: "asset/resource",

@@ -10,10 +10,12 @@ export interface IPagination<T> {
 export interface IAuthor {
   id: number;
   name: string;
-  avatar: ImageBitmap;
+  avatar: string;
 }
 
 export interface IComment {
+  isLiked?: boolean;
+  child?: IComment;
   id: number;
   created: string;
   text: string;

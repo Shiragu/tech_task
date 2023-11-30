@@ -1,0 +1,21 @@
+.container {
+  font-weight: 700;
+  width: 100%;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary p {
+  display: inherit;
+  align-items: center;
+  gap: 8px;
+}
+
+.divider {
+  border-width: 0.2px;
+  border-color: #767676;
+  margin-bottom: 0;
+}

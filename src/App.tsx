@@ -1,9 +1,14 @@
-import HomePage from "@core/pages/homePage";
+import HomePage from "@core/pages/HomePage";
+import { Provider } from "react-redux";
+
+import { appStore } from "./store/appStore";
+
+const store = appStore();
 
 export default function App() {
   return (
-    <div>
+    <Provider store={store}>
       <HomePage />
-    </div>
+    </Provider>
   );
 }

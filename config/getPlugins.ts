@@ -1,7 +1,7 @@
 import { IBuildEnv } from "@core/types/build.types";
-import { WebpackPluginInstance } from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import { WebpackPluginInstance } from "webpack";
 
 export function getPlugins({ paths }: IBuildEnv): WebpackPluginInstance[] {
   const htmlPlugin = new HtmlWebpackPlugin({

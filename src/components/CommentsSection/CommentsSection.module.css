@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  height: calc(100vh);
+  max-width: 560px;
+
+  padding: var(--spacing-l) 0;
+}
+
+.comments {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.comments::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: var(--spacing-s) var(--spacing-xs) var(--spacing-m);
+  }
+}

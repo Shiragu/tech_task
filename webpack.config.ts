@@ -1,9 +1,11 @@
 import path from "path";
+
 import { IBuildEnv, IBuildPaths } from "@core/types/build.types";
+import { Configuration } from "webpack";
+
+import { getDevServer } from "./config/getDevServer";
 import { getLoaders } from "./config/getLoaders";
 import { getPlugins } from "./config/getPlugins";
-import { getDevServer } from "./config/getDevServer";
-import { Configuration } from "webpack";
 
 const config = (env: IBuildEnv): Configuration => {
   const paths: IBuildPaths = {
