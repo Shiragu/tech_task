@@ -1,0 +1,306 @@
+._J0KxsXu {
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  height: calc(100vh);
+  max-width: 560px;
+
+  padding: var(--spacing-l) 0;
+}
+
+.cyV1xSJ2 {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.cyV1xSJ2::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (max-width: 1024px) {
+  ._J0KxsXu {
+    padding: var(--spacing-s) var(--spacing-xs) var(--spacing-m);
+  }
+}
+
+.otdKz1Xw {
+  max-width: 560px;
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  grid-template-rows: 68px 1fr;
+
+  column-gap: 20px;
+  margin-top: var(--spacing-s);
+}
+
+.JYumfw0V {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.IerfiDGg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TTMJOEYP {
+  display: inherit;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lh0d9bKN {
+  font-weight: 700;
+}
+
+.BRrbofeZ {
+  color: #8297ab;
+}
+
+.fWTf5o83 {
+  display: inherit;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.fWTf5o83 svg {
+  cursor: pointer;
+}
+
+.Z0w2v46P,
+.v4Rc3RUu {
+  grid-column: 2;
+}
+
+.v4Rc3RUu {
+  margin-left: -54px;
+}
+
+.otdKz1Xw:first-child .v4Rc3RUu {
+  grid-column: 2;
+  margin-left: -88px;
+}
+
+@media (max-width: 1024px) {
+  .otdKz1Xw {
+    margin-top: var(--spacing-xs);
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 40px 1fr;
+    row-gap: 8px;
+  }
+
+  .JYumfw0V {
+    width: 40px;
+    height: 40px;
+  }
+
+  .v4Rc3RUu {
+    margin-left: -44px;
+  }
+
+  .otdKz1Xw:first-child .v4Rc3RUu {
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Z0w2v46P {
+    line-break: anywhere;
+  }
+}
+
+.RTZrGBVR {
+  font-weight: 700;
+  width: 100%;
+}
+
+.rhL17TRx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rhL17TRx p {
+  display: inherit;
+  align-items: center;
+  gap: 8px;
+}
+
+.fTy7iv3s {
+  border-width: 0.2px;
+  border-color: #767676;
+  margin-bottom: 0;
+}
+
+.QQE3xh3b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  outline: none;
+  border: none;
+  border-radius: 4px;
+
+  padding: 8px 60px;
+
+  color: var(--color-white);
+  background: #313439;
+
+  margin-top: var(--spacing-s);
+
+  cursor: pointer;
+
+  transition: 100ms ease-in;
+}
+
+.QQE3xh3b:hover {
+  transform: scale(1.05);
+}
+
+.QQE3xh3b:active {
+  transform: scale(1);
+  opacity: 0.8;
+}
+
+.QQE3xh3b:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.qTTUBk_c {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  animation: mNQHZof2 1s linear infinite;
+}
+
+.qTTUBk_c::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+  animation: m1_fVPg5 2s linear infinite;
+}
+
+@keyframes mNQHZof2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes m1_fVPg5 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
+
+.hRvnG6Hv {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+
+  background: rgb(182, 0, 0);
+  color: var(--color-white);
+
+  font-size: 16px;
+  padding: 8px 32px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  cursor: pointer;
+}
+
+.BHcfrdiH {
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .hRvnG6Hv {
+    font-size: 14px;
+    padding: 4px 16px;
+  }
+
+  .BHcfrdiH {
+    font-size: 10px;
+  }
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* spacings */
+  --spacing-xl: 64px;
+  --spacing-l: 52px;
+  --spacing-m: 48px;
+  --spacing-s: 32px;
+  --spacing-xs: 24px;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: var(--color-white);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: url(../71b02067c63a7754b651.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  backdrop-filter: brightness(50%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 14px;
+  }
+}
+

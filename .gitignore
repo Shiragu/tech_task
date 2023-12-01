@@ -4,9 +4,6 @@
 .pnp.js
 package-lock.json
 
-# production
-/build
-
 # misc
 .DS_Store
 *.pem
