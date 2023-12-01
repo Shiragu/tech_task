@@ -2,11 +2,11 @@ import img10 from "@core/assets/avatars/chew.jpeg";
 import img9 from "@core/assets/avatars/general.jpeg";
 import img7 from "@core/assets/avatars/gon.jpeg";
 import img6 from "@core/assets/avatars/han-solo.jpg";
-import img5 from "@core/assets/avatars/luke.jpeg";
-import img1 from "@core/assets/avatars/obi-wan.jpeg";
-import img8 from "@core/assets/avatars/palpatine.jpeg";
-import img3 from "@core/assets/avatars/veider.jpeg";
-import img4 from "@core/assets/avatars/walker.jpeg";
+import img1 from "@core/assets/avatars/img1.png";
+import img8 from "@core/assets/avatars/img2.png";
+import img3 from "@core/assets/avatars/img3.png";
+import img5 from "@core/assets/avatars/img4.png";
+import img4 from "@core/assets/avatars/img5.png";
 import img2 from "@core/assets/avatars/yoda.jpeg";
 import { IAuthor } from "@core/types/posts.types";
 

@@ -1,6 +1,7 @@
 import { HeartEmpty } from "@core/assets/icons/HeartEmpty";
 import { HeartFilled } from "@core/assets/icons/HeartFilled";
 import { useAppDispatch, useAppState } from "@core/hooks/useRedux";
+import { formatThousands } from "@core/lib/commentUtils";
 import { zonedDateTimeToString } from "@core/lib/dateFormatters";
 import { commentsActions } from "@core/store/commentsSlice";
 import { IComment } from "@core/types/posts.types";
@@ -35,7 +36,7 @@ export const Comment: FC<IComment> = ({ id, author, created, text, likes, isLike
         </div>
         <div className={styles.likes}>
           {isLiked ? <HeartFilled onClick={toggleDislike} /> : <HeartEmpty onClick={toggleLike} />}
-          {likes}
+          {formatThousands(likes)}
         </div>
       </div>
       <div className={styles.message}>{text}</div>

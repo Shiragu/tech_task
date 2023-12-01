@@ -2,7 +2,14 @@ import { SVGAttributes } from "react";
 
 export const HeartGray = (props: SVGAttributes<SVGElement>) => {
   return (
-    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 22 22"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
       <g opacity="0.4">
         <path
           fillRule="evenodd"

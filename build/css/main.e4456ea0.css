@@ -274,11 +274,10 @@ body {
   width: 100%;
   height: 100vh;
 
-  background: url(../71b02067c63a7754b651.jpeg);
+  background: url(../ccfd43ba0159dc2debae.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
-  backdrop-filter: brightness(50%);
+  background-position: 30% 0;
 }
 
 a {

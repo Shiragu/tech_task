@@ -1,5 +1,6 @@
 import { HeartGray } from "@core/assets/icons/HeartGray";
 import { useAppState } from "@core/hooks/useRedux";
+import { formatThousands } from "@core/lib/commentUtils";
 
 import styles from "./CommentsSummary.module.css";
 
@@ -11,7 +12,7 @@ export const CommentsSummary = () => {
       <div className={styles.summary}>
         <p>{totalComments} комментариев</p>
         <p>
-          <HeartGray /> {totalLikes}
+          <HeartGray /> {formatThousands(totalLikes)}
         </p>
       </div>
       <hr className={styles.divider} />

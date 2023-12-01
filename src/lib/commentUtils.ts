@@ -45,3 +45,11 @@ export const countComments = (comment: IComment) => {
 
   return { commentsCount, likesCount };
 };
+
+export const formatThousands = (digit: number) => {
+  if (isNaN(digit)) {
+    return "";
+  }
+
+  return digit.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, "$1 ");
+};
